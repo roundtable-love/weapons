@@ -32,18 +32,25 @@ The SFA equips every Round Table Hacker with two Babylon-free weapon systems: a 
 
 ## 0.2 Requirements
 
-| Requirement | Arm | Reason |
-| :--- | :--- | :--- |
-| CPU: 4c/8t minimum | Long | Parallel tooling, containers, language servers |
-| RAM: 32 GB minimum | Long | The Hacker's local environment runs without constraint |
-| Workflow: terminal-first | Long | The interface of a Hacker is the terminal |
-| Keyboard: backlit | Long | A Hacker operates in all conditions |
-| Firmware: Babylon-free | Long | The machine must answer only to its operator |
-| OS: NixOS / ArtNix (Long), GrapheneOS (Short) | Both | A Hacker's system state is impermanent, reproducible, and auditable |
-| Encryption: full disk | Both | The machine does not surrender its secrets |
-| Browser: Chromium family | Both | The web is a surface, not a home |
-| Biometrics: fingerprint | Both | The Hacker's identity is verified, not recited |
-| Mobile connectivity | Both | A Hacker is not tethered to a single point of failure |
+**Long**
+
+| Requirement | Reason |
+| :--- | :--- |
+| CPU: 4c/8t minimum | Parallel tooling, containers, language servers |
+| RAM: 32 GB minimum | The Hacker's local environment runs without constraint |
+| Workflow: terminal-first | The interface of a Hacker is the terminal |
+| Keyboard: backlit | A Hacker operates in all conditions |
+| Firmware: Babylon-free | The machine must answer only to its operator |
+
+**Both**
+
+| Requirement | Reason |
+| :--- | :--- |
+| OS: NixOS / ArtNix (Long), GrapheneOS (Short) | A Hacker's system state is impermanent, reproducible, and auditable |
+| Encryption: full disk | The machine does not surrender its secrets |
+| Browser: Chromium family | The web is a surface, not a home |
+| Biometrics: fingerprint | The Hacker's identity is verified, not recited |
+| Mobile connectivity | A Hacker is not tethered to a single point of failure |
 
 ---
 
