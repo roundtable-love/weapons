@@ -12,14 +12,7 @@ Keywords:  Per RFC 2119
 
 ## 0. Purpose
 
-**Sovereign Field Artillery (SFA)** is the personal weaponry of the Knights of the Round Table.
-
-| System | Role |
-| :--- | :--- |
-| **[Long](#2-long)** | primary hacking platform |
-| **[Short](#3-short-pixel-7--grapheneos)** | field communication and mobile compute |
-
-The SFA equips every Round Table Hacker with two Babylon-free weapon systems: a primary hacking platform (Long) and a field communicator (Short). Both run sovereign, auditable software stacks. Neither answers to its manufacturer.
+**Sovereign Field Artillery (SFA)** is the personal weaponry of the Knights of the Round Table. It consists of two Babylon-free weapon systems: a primary hacking platform (Long) and a field communicator (Short). Both run sovereign, auditable software stacks. Neither answers to its manufacturer.
 
 | | Long | Short |
 | :--- | :--- | :--- |
