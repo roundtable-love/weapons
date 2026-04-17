@@ -12,19 +12,18 @@ Keywords: Per RFC 2119 (MUST, SHALL, REQUIRED)
 ## 0. Tactical Purpose & Doctrine
 
 **Sovereign Field Artillery (SFA)** constitutes the primary cyber-kinetic
-doctrine for Round Table **R00d Bw0y L337 H4x0rz G4n9 $t4r @$$@$$1nz**. It
-defines the deployment of two mathematically secure, Babylon-denied field weapon
-systems: the **LONG** (Terminal) and the **SHORT** (Mobile).
+doctrine for Round Table **R00d Bw0y/Grr1 H4x0r @$$@$$1nz**. It defines the
+deployment of two mathematically secure, Babylon-denied weapon systems:
+the **LONG** (Terminal) and the **SHORT** (Mobile).
 
-These systems MAY operate independently of Camelot Planetary C2 (Site Alpha).
-Hackers MUST use Camelot for ALL non-trivial workloads unless operating under
-Ghost Protocol. Hackers MUST NOT attempt full-source bootstrap on field
-equipment.
+These systems MAY operate independently of Camelot Planetary C2. Hackers MUST
+use Camelot for ALL non-trivial workloads (exception: Ghost Protocol). Hackers
+MUST NOT attempt full-source bootstrap on field equipment.
 
-Both assets execute strictly sovereign, auditable software stacks operating
+Both systems run strictly sovereign, auditable software stacks operating
 under a Trust No Fucker (TNF) model. Neither node broadcasts telemetry to
-original equipment manufacturers (OEMs), nor do they comply with Five Eyes
-signals intelligence (SIGINT) directives.
+original equipment manufacturers (OEMs), nor do they comply with NSA
+directives.
 
 Total operational silence and cryptographic autonomy are the baseline.
 
@@ -39,10 +38,10 @@ Total operational silence and cryptographic autonomy are the baseline.
 
 | Requirement | Tactical Rationale |
 | :--- | :--- |
-| **OS:** NixOS / ArtNix (LONG), GrapheneOS (SHORT) | A Rude Bwoy L337 H4x0r's system state is impermanent, reproducible, and auditable. We wipe the slate clean. No lingering traces like a bad case of the clap. |
-| **Biometrics:** Fingerprint | Passwords can be beaten out of you. The Hacker's identity is verified by the flesh, not recited by a mouth that can break. |
-| **Encryption:** Full Disk (LUKS) | The machine shuts its mouth. Tighter than a submarine door. If Babylon seizes the chassis, they get nothing but cryptographic noise. |
-| **Mobile Connectivity:** WWAN / LTE | A Sovereign is not tethered to a single point of failure like a REMF to a coffee machine. We shoot and scoot. |
+| **OS:** NixOS / ArtNix (LONG), GrapheneOS (SHORT) | A Hacker's system state is impermanent, reproducible, and auditable. We wipe the slate clean. |
+| **Biometrics:** Fingerprint | The Hacker's identity is verified by the flesh, not recited by a mouth that can break. |
+| **Encryption:** Full Disk (LUKS) | The machine shuts its mouth. If Babylon seizes the chassis, they get nothing but cryptographic noise. |
+| **Mobile Connectivity:** WWAN / LTE | A Hacker is not tethered to a single point of failure. We shoot and scoot. |
 
 ### LONG (Heavy Tactical) Baseline
 
@@ -77,8 +76,7 @@ ordnance based on operational budget and theater requirements.
 longer hardware runway, but haven't spent enough time in the mud to:
 
 1. appreciate the classics
-1. grok their own psyche: undersized biological hardware (itsy bitsy teenie
-   weenie cock) requires shiny toys
+1. grok their own psyche: undersized biological hardware requires shiny toys
 
 > [!NOTE]
 >
@@ -90,15 +88,14 @@ longer hardware runway, but haven't spent enough time in the mud to:
 > [!WARNING]
 >
 > **Babylonian Status Hardware (The Honeypot Vulnerability):** The threat model
-> extends far beyond field artillery. Flashy whips (M-Series, Range Rovers,
-> financed natch), iced-out wrist-hardware (Rolex, AP), and overpriced designer
-> clobber (Gucci, Balenciaga) all broadcast on the exact same unencrypted,
+> extends far beyond field artillery. Flashy whips, iced-out wrist-hardware, and
+> overpriced designer clobber all broadcast on the exact same unencrypted,
 > highly dangerous frequency.
 >
 > While sovereign growler-owners parse this flex as a pure *no-fuk filter*,
 > **growler-vendors** (commercial wetware) actively sniff this exact bandwidth
-> for vulnerabilities. They do not care if the wasteman causes their wetware to
-> raise `ERR_NO_SATISFACTION`. They simply parse the shiny chassis, the Swiss
+> for vulnerabilities. They do not care that the wasteman causes their wetware
+> to raise `ERR_NO_SATISFACTION`. They simply parse the shiny chassis, the Swiss
 > watch, and the VIP table service as an unsecured financial API. The mark is
 > instantly targeted for aggressive, sustained resource extraction until his
 > inevitable system crash.
@@ -424,7 +421,7 @@ immediate binning (or RTU for refund).
 
 There are no second chances for weak hardware. If it drops to its knees in the
 training yard, it will absolutely shit the bed when compiling the kill chain in
-a live kinetic operation.
+a live operation.
 
 ```bash
 #! /usr/bin/env nix-shell
@@ -494,17 +491,20 @@ unlock, flash, and relock. TNF verified boot is now active.
 ## Glossary
 
 [CH341A]: A cheap USB programmer chip used to read and write SPI flash chips directly, bypassing the host CPU.
-[CLOUD Act]: Clarifying Lawful Overseas Use of Data Act (2018) - compels US-incorporated technology companies to provide data to law enforcement regardless of storage location.
+[cloud act]: https://en.wikipedia.org/wiki/CLOUD_Act "Clarifying Lawful Overseas Use of Data Act (2018) - compels US-incorporated technology companies to provide data to law enforcement regardless of storage location."
 [coreboot]: Open-source firmware replacing proprietary BIOS/UEFI; gives the operator full visibility and control of the boot process.
 [CPU]: Central Processing Unit - the main processor. Core count (4c) and thread count (8t) determine parallel workload capacity.
 [DDR4]: Double Data Rate 4 - the RAM standard used in the T480. Speed rated in MT/s (e.g. 2400)
 [FHD]: Full HD - 1920x1080 pixel display resolution
+[fisa 702]: https://en.wikipedia.org/wiki/Foreign_Intelligence_Surveillance_Act_of_1978_Amendments_Act_of_2008#Section_702 "FISA Section 702 - authorises US intelligence agencies to compel US service providers to hand over communications of foreign persons without individual warrants."
 [GrapheneOS]: A hardened, privacy-focused Android fork with verified boot, no telemetry, and strengthened app sandboxing
 [HDMI]: High-Definition Multimedia Interface - standard video/audio output port
 [HOTP]: HMAC-based One-Time Password - a counter-based code generated by a hardware key (e.g. Nitrokey, Librem Key). Heads uses HOTP to physically verify boot integrity on every boot; a mismatched code signals tampering
 [IPS]: In-Plane Switching - an LCD panel technology offering accurate colour and wide viewing angles
 [LTE]: Long-Term Evolution - the 4G mobile data standard
+[me]: https://en.wikipedia.org/wiki/Intel_Management_Engine "Intel Management Engine - a microcontroller embedded in Intel chipsets running a proprietary OS with independent network access and persistent memory visibility, below and outside host OS control."
 [NFC]: Near Field Communication - short-range wireless for payments and data transfer
+[nsa tao]: https://en.wikipedia.org/wiki/Tailored_Access_Operations "NSA Tailored Access Operations - offensive cyber unit. Capabilities include hardware interdiction, QUANTUM INSERT traffic injection, and supply chain compromise."
 [NVMe]: Non-Volatile Memory Express - a fast SSD interface over PCIe; significantly faster than older SATA SSDs
 [OLED]: Organic Light-Emitting Diode - a display technology with true blacks and high contrast
 [PSU]: Power Supply Unit - the power adapter
@@ -515,14 +515,9 @@ unlock, flash, and relock. TNF verified boot is now active.
 [SOIC-8]: Small Outline Integrated Circuit, 8-pin - the package format of the T480 flash chips. The SOIC-8 clip connects the CH341A programmer to the chip without desoldering
 [SPI]: Serial Peripheral Interface - the protocol used to read and write firmware flash chips
 [TB3]: Thunderbolt 3 - a high-speed port (40 Gbps) supporting power delivery, display output, and data. Enables single-cable docking
+[the threat actors of babylon]: https://github.com/roundtable-love/source#the-threat-actors-of-babylon
 [Titan M2]: Google's dedicated security chip, providing hardware-rooted attestation and cryptographic key storage
 [TPM]: Trusted Platform Module - a dedicated security chip that stores cryptographic keys and measurements of the boot process. Heads uses the TPM to attest that the firmware has not been tampered with
 [UEFI]: Unified Extensible Firmware Interface - the proprietary firmware standard shipped by manufacturers including Lenovo
 [USB-A]: The standard rectangular USB port
 [WWAN]: Wireless Wide Area Network - the M.2 slot used for mobile data cards such as the Sierra Wireless EM7455
-
-[me]: https://en.wikipedia.org/wiki/Intel_Management_Engine "Intel Management Engine - a microcontroller embedded in Intel chipsets running a proprietary OS with independent network access and persistent memory visibility, below and outside host OS control."
-[cloud act]: https://en.wikipedia.org/wiki/CLOUD_Act "Clarifying Lawful Overseas Use of Data Act (2018) - compels US-incorporated technology companies to provide data to law enforcement regardless of storage location."
-[fisa 702]: https://en.wikipedia.org/wiki/Foreign_Intelligence_Surveillance_Act_of_1978_Amendments_Act_of_2008#Section_702 "FISA Section 702 - authorises US intelligence agencies to compel US service providers to hand over communications of foreign persons without individual warrants."
-[nsa tao]: https://en.wikipedia.org/wiki/Tailored_Access_Operations "NSA Tailored Access Operations - offensive cyber unit. Capabilities include hardware interdiction, QUANTUM INSERT traffic injection, and supply chain compromise."
-[the threat actors of babylon]: https://github.com/roundtable-love/source#the-threat-actors-of-babylon
